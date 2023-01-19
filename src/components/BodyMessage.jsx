@@ -13,6 +13,9 @@ const BodyMessage = () => {
                     messageReport={notification.notification}
                     img={notification.imgPath}
                     lastTimeView={notification.lastTimeView}
+                    readNotification={notification.readNotification}
+                    message={notification.message}
+                    imgNotification={notification.imgNotification}
                     key={index}
                 />
             });

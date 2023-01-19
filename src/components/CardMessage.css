@@ -1,3 +1,68 @@
 .CardMessage{
+    display: grid;
+    grid-template-columns: 100px auto;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    border-radius: 10px;
+}
+
+.colorNotification{
     background-color: var(--light-grayish-blue-1);
+}
+
+.CardMessage .CardMessageLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardMessage .CardMessageBody{
+    grid-column-start: 2;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    border-style: solid;
+    background-color: var(--white);
+    border-color: var(--light-grayish-blue-2);
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.CardMessage .CardMessageLeft .UserImg{
+    margin: 0 20px 0 20px;
+}
+
+.CardMessage .CardMessageLeft .UserImg #iconUser{
+    width: 38px;
+    height: auto;
+}
+
+.ReadMessageIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+.ReadMessageIcon .BallIcon{
+    width: 10px;
+    height: 10px;
+    background-color: var(--red);
+    border-radius: 100%;
+    min-width: 10px;
+    min-height: 10px;
+}
+
+.CardMessage .CardMessageRight{
+    display: flex;
+    flex-direction: column;
+}
+
+.CardMessage .CardMessageRight .ReportMessage{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ReportMessage .Username h2{
+    font-weight: 800;
+    margin: 0 10px 0 0;
 }

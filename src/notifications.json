@@ -26,6 +26,7 @@
             "notification": "sent you a private message",
             "lastTimeView": "5 days ago",
             "imgPath": "./images/avatar-rizky-hasanuddin.webp",
+            "readNotification": true,
             "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
         },
         {
@@ -33,18 +34,21 @@
             "notification": "commented on your picture",
             "lastTimeView": "1 week ago",
             "imgPath": "./images/avatar-kimberly-smith.webp",
+            "readNotification": true,
             "imgNotification": "./images/image-chess.webp"
         },
         {
             "username": "Nathan Peterson",
             "notification": "reacted to your recent post 5 end-game strategies to increase your win rate",
             "lastTimeView": "2 weeks ago",
+            "readNotification": true,
             "imgPath": "./images/avatar-nathan-peterson.webp"
         },
         {
             "username": "Anna Kim",
             "notification": "left the group Chess Club",
             "lastTimeView": "2 weeks ago",
+            "readNotification": true,
             "imgPath": "./images/avatar-anna-kim.webp"
         }
     ]
