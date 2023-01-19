@@ -1,0 +1,29 @@
+.HeaderNotification, .HeaderNotificationLeft, .HeaderNotificationRight{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.HeaderNotificationRight div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderNotificationLeft .NotificationCounter{
+    margin-left: 10px;
+}
+
+.NotificationCounter h1{
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    width: 50px;
+    border-radius: 20%;
+}
+
+.HeaderNotificationLeft h1{
+    font-weight: 800;
+    font-size: 20px;
+}

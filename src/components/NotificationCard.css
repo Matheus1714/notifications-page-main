@@ -1,0 +1,5 @@
+.NotificationCard{
+    background-color: var(--white);
+    width: 30%;
+    padding: 1% 2% 1% 2%;
+}

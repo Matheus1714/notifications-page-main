@@ -1,8 +1,13 @@
 import './App.css';
+import Footer from './components/Footer';
+import NotificationCard from './components/NotificationCard';
 
 const App = ()=> {
   return (
-    <div>Hello</div>
+    <div className='app'>
+      <NotificationCard/>
+      <Footer/>
+    </div>
   );
 }
 

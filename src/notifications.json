@@ -1,0 +1,51 @@
+{
+    "notifications":[
+        {
+            "username": "Mark Webber",
+            "notification": "reacted to your recent post My first tournament today!",
+            "lastTimeView": "1m ago",
+            "readNotification": false,
+            "imgPath": "./images/avatar-mark-webber.webp"
+        },
+        {
+            "username": "Angela Gray",
+            "notification": "followed you",
+            "lastTimeView": "5m ago",
+            "readNotification": false,
+            "imgPath": "./images/avatar-angela-gray.webp"
+        },
+        {
+            "username": "Jacob Thompson",
+            "notification": "has joined your group Chess Club",
+            "lastTimeView": "1 day ago",
+            "readNotification": false,
+            "imgPath": "./images/avatar-jacob-thompson.webp"
+        },
+        {
+            "username": "Rizky Hasanuddin",
+            "notification": "sent you a private message",
+            "lastTimeView": "5 days ago",
+            "imgPath": "./images/avatar-rizky-hasanuddin.webp",
+            "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
+        },
+        {
+            "username": "Kimberly Smith",
+            "notification": "commented on your picture",
+            "lastTimeView": "1 week ago",
+            "imgPath": "./images/avatar-kimberly-smith.webp",
+            "imgNotification": "./images/image-chess.webp"
+        },
+        {
+            "username": "Nathan Peterson",
+            "notification": "reacted to your recent post 5 end-game strategies to increase your win rate",
+            "lastTimeView": "2 weeks ago",
+            "imgPath": "./images/avatar-nathan-peterson.webp"
+        },
+        {
+            "username": "Anna Kim",
+            "notification": "left the group Chess Club",
+            "lastTimeView": "2 weeks ago",
+            "imgPath": "./images/avatar-anna-kim.webp"
+        }
+    ]
+}
