@@ -11,6 +11,7 @@ const BodyMessage = () => {
                 return <CardMessage 
                     username={notification.username}
                     messageReport={notification.notification}
+                    mediaLink={notification.mediaLink}
                     img={notification.imgPath}
                     lastTimeView={notification.lastTimeView}
                     readNotification={notification.readNotification}

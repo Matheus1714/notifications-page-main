@@ -1,6 +1,6 @@
 .CardMessage{
     display: grid;
-    grid-template-columns: 100px auto;
+    grid-template-columns: 70px auto;
     padding: 10px;
     margin: 20px 0 20px 0;
     border-radius: 10px;
@@ -29,10 +29,6 @@
     border-color: var(--light-grayish-blue-2);
     border-width: 1px;
     border-radius: 10px;
-}
-
-.CardMessage .CardMessageLeft .UserImg{
-    margin: 0 20px 0 20px;
 }
 
 .CardMessage .CardMessageLeft .UserImg #iconUser{
@@ -67,6 +63,8 @@
 
 .CardMessage .CardMessageRight .LastTimeView{
     grid-area: LastTimeView;
+
+    opacity: 70%;
 }
 
 .CardMessage .CardMessageRight .ImgNotification{
@@ -75,6 +73,26 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.CardMessage .CardMessageRight .MediaLink h2{
+    font-weight: 800;
+}
+
+.CardMessage .CardMessageRight .MediaLink{
+    margin: 0 5px 0 5px;
+    color: var(--dark-grayish-blue);
+    margin: 0 0 0 10px;
+}
+
+.CardMessage .CardMessageRight .MediaLink h2:hover{
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.CardMessage .CardMessageRight .MediaLink h2:active{
+    cursor: pointer;
+    color: var(--blue);
 }
 
 .CardMessage .CardMessageRight .ReportMessage{
@@ -94,4 +112,9 @@
 .ReportMessage .Username h2{
     font-weight: 800;
     margin: 0 10px 0 0;
+}
+
+.ReportMessage .Username:active, .ReportMessage .Username:hover{
+    cursor: pointer;
+    color: var(--blue);
 }

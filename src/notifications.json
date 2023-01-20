@@ -2,7 +2,8 @@
     "notifications":[
         {
             "username": "Mark Webber",
-            "notification": "reacted to your recent post My first tournament today!",
+            "notification": "reacted to your recent post ",
+            "mediaLink": "My first tournament today!",
             "lastTimeView": "1m ago",
             "readNotification": false,
             "imgPath": "./images/avatar-mark-webber.webp"
@@ -16,7 +17,8 @@
         },
         {
             "username": "Jacob Thompson",
-            "notification": "has joined your group Chess Club",
+            "notification": "has joined your group ",
+            "mediaLink": "Chess Club",
             "lastTimeView": "1 day ago",
             "readNotification": false,
             "imgPath": "./images/avatar-jacob-thompson.webp"
@@ -39,14 +41,16 @@
         },
         {
             "username": "Nathan Peterson",
-            "notification": "reacted to your recent post 5 end-game strategies to increase your win rate",
+            "notification": "reacted to your recent post ",
+            "mediaLink": "5 end-game strategies to increase your win rate",
             "lastTimeView": "2 weeks ago",
             "readNotification": true,
             "imgPath": "./images/avatar-nathan-peterson.webp"
         },
         {
             "username": "Anna Kim",
-            "notification": "left the group Chess Club",
+            "notification": "left the group ",
+            "mediaLink": "Chess Club",
             "lastTimeView": "2 weeks ago",
             "readNotification": true,
             "imgPath": "./images/avatar-anna-kim.webp"

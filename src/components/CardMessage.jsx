@@ -5,6 +5,7 @@ const CardMessage = params => {
     const username = params.username;
     const img = params.img;
     const messageResport = params.messageReport;
+    const mediaLink = params.mediaLink || "";
     const showAlertNotification = !params.readNotification;
     const message = params.message || "";
     const imgNotification = params.imgNotification || "";
@@ -43,6 +44,9 @@ const CardMessage = params => {
                     </div>
                     <div className='MessageResport'>
                         <h2>{messageResport}</h2>
+                    </div>
+                    <div hidden={!!!mediaLink} className='MediaLink'>
+                        <h2>{mediaLink}</h2>
                     </div>
                     <div className='ReadMessageIcon'>
                         {showReadIcon(showAlertNotification)}

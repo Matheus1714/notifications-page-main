@@ -10,7 +10,7 @@ const HeaderNotification = () => {
                 <NotificationCounter numberOfNotifications = {3} />
             </div>
             <div className='HeaderNotificationRight'>
-                <div>
+                <div className='MarkAll'>
                     <p>Mark all as Read</p>
                 </div>
             </div>

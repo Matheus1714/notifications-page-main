@@ -27,3 +27,14 @@
     font-weight: 800;
     font-size: 20px;
 }
+
+.HeaderNotificationRight .MarkAll{
+    font-weight: 800;
+    opacity: 60%;
+}
+
+.HeaderNotificationRight .MarkAll:hover, .HeaderNotificationRight .MarkAll:active{
+    cursor: pointer;
+    color: var(--blue);
+    opacity: 100%;
+}
