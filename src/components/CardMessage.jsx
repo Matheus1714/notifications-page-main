@@ -52,6 +52,10 @@ const CardMessage = params => {
                 <div className='LastTimeView'>
                     <h2>{lastTimeView}</h2>
                 </div>
+
+                <div hidden={!!!imgNotification} className="ImgNotification">
+                    <img hidden={!!!imgNotification} src={imgNotification} />
+                </div>
             </div>
 
             <div hidden={!!!message} className='CardMessageBody'>

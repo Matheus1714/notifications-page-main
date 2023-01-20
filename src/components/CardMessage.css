@@ -10,6 +10,10 @@
     background-color: var(--light-grayish-blue-1);
 }
 
+.CardMessage .CardMessageBody:hover{
+    background-color: var(--light-grayish-blue-2);
+}
+
 .CardMessage .CardMessageLeft{
     display: flex;
     justify-content: center;
@@ -32,8 +36,8 @@
 }
 
 .CardMessage .CardMessageLeft .UserImg #iconUser{
-    width: 38px;
-    height: auto;
+    width: 42px;
+    height: 42px;
 }
 
 .ReadMessageIcon{
@@ -53,8 +57,33 @@
 }
 
 .CardMessage .CardMessageRight{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+        "ReportMessage ImgNotification"
+        "LastTimeView  ImgNotification"
+    ;
+}
+
+.CardMessage .CardMessageRight .LastTimeView{
+    grid-area: LastTimeView;
+}
+
+.CardMessage .CardMessageRight .ImgNotification{
+    grid-area: ImgNotification;
+
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.CardMessage .CardMessageRight .ReportMessage{
+    grid-area: ReportMessage;
+}
+
+.CardMessage .CardMessageRight .ImgNotification img{
+    width: 42px;
+    height: 42px;
 }
 
 .CardMessage .CardMessageRight .ReportMessage{

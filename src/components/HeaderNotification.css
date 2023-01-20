@@ -17,9 +17,9 @@
 }
 
 .NotificationCounter h1{
-    background-color: var(--very-dark-blue);
+    background-color: var(--blue);
     color: var(--white);
-    width: 50px;
+    width: 40px;
     border-radius: 20%;
 }
 
